@@ -4,20 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./style.css">
-
-    <title>Card Flip</title>
 </head>
 <body>
     
-    <h3>Score: <span id="result"></span></h3>
+    <div class="container">
+        <div class="alert"></div>
+        <h3>Score: <span id="result"></span></h3>
 
-    <div class="grid">
-        
+        <div class="game-board">
+            
+        </div>
     </div>
 
+    <div class="leaderboard">
+        <div class="level">
+            <p class="" id="easy">easy</p>
+            <p class="active" id="medium">medium</p>
+            <p class="" id="expert">expert</p>
+        </div>
+
+        <div class="board">
+            <div class="record">
+                <p class="playerName">Excel Bill</p>
+                <span class="playerScore">26</span>
+            </div>
+            <div class="record">
+                <p class="playerName">Jenifer Lopez</p>
+                <span class="playerScore">19</span>
+            </div>
+            <div class="record">
+                <p class="playerName">Chris Evans</p>
+                <span class="playerScore">19</span>
+            </div>
+            <div class="record">
+                <p class="playerName">Chris Hermsworth</p>
+                <span class="playerScore">14</span>
+            </div>
+            <div class="record">
+                <p class="playerName">Ariana Grande</p>
+                <span class="playerScore">9</span>
+            </div>
+            <div class="record">
+                <p class="playerName">Claus Michaelson</p>
+                <span class="playerScore">9</span>
+            </div>
+        </div>
+    </div>
 
 
     <script src="./main.js"></script>
